@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiemtra(lop) {
+        tt=/^[CAP][0-9]{4}[GHIKLM]/;
+        if (tt.test(lop)){
+            console.log(lop+" :"+"ten nay hop le")
+        }else {
+            console.log(lop+" :"+"ten nay sai ")
+        }
+
+    }
+    let lop="C0318G";
+    kiemtra(lop);
+    let ten="M0318G";
+    let ten2="P0323A";
+    kiemtra(ten);
+    kiemtra(ten2);
+</script>
+</body>
+</html>
